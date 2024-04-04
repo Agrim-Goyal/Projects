@@ -5,7 +5,6 @@ class Agent:
     def __init__(self, start, stop, constraints):
         self.start = start
         self.stop = stop
-        self.constraints = constraints
 
 #node refers to a coordinate in the middle of the path which has coord coordinates and object4 arrives at time from the prev node
 class Node:
