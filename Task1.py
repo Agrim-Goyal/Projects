@@ -2,7 +2,7 @@ import numpy as np
 #defining classes
 #agent refers to the object moving from start to stop coordinates with given constraints
 class Agent:
-    def __init__(self, start, stop, constraints):
+    def __init__(self, start, stop):
         self.start = start
         self.stop = stop
 
