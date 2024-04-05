@@ -145,6 +145,6 @@ for i in range(n):
     start_x = int(input("Enter starting x coordinate: "))
     stop_y = int(input("Enter stopping y coordinate: "))
     stop_x = int(input("Enter stopping x coordinate: "))
-    agents.append(Agent([start_y,start_x], [stop_y,stop_x], []))
+    agents.append(Agent([start_y,start_x], [stop_y,stop_x]))
 for i in CBS(maze, agents):
         print(i)
